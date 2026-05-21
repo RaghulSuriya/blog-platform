@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hero">
+
+        <h1>📝 Blog Platform</h1>
+
+        <p>Create and share your thoughts with the world</p>
+
+    </div>
+
+    <div class="container">
+
+        <div class="form-box">
+
+            <h2>Create Blog</h2>
+
+            <input type="text" id="title" placeholder="Blog Title">
+
+            <input type="text" id="author" placeholder="Author Name">
+
+            <textarea id="content" placeholder="Write your blog content..."></textarea>
+
+            <button onclick="addPost()">Publish Blog</button>
+
+        </div>
+
+        <div id="blog-list"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
